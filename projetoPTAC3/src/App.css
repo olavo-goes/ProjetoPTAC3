@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-style: Arial;
+    color: #333;
+  }
+  
+  input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #104279;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .botaoRegistrar {
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+  }
+  
+
+  Header{
+    background-color: #073363;
+    color: #f4f4f4;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.Link{
+    text-decoration: underline;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #350c6b;
+}
