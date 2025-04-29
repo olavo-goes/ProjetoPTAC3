@@ -29,12 +29,12 @@ export default function App (){
       navigate('/');
     alert('logado com sucesso!')
     } catch(err){
-      alert('erro no processo ' + err)
+      alert('erro ao realizar login, verifique seu email e senha ' + err)
     }
   }
 
   return(
-    <><Header header="cabeçalho"/>
+    <><Header header="Trabalho 1 PTAC 3"/>
     <main>
       <form onSubmit={autenticarComFirebase}>
         <label htmlFor="email">E-mail:</label>

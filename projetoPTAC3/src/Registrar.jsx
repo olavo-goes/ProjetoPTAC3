@@ -25,7 +25,7 @@ export default function Registra() {
 
     return(
     <>
-    <Header header="cabeçalho"/>
+    <Header header="Trabalho 1 PTAC 3"/>
     <main>
         <form onSubmit={handleRegister}>
         <label htmlFor="email">E-mail:</label>
